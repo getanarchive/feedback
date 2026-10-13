@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Send feedback privately
+    url: mailto:feedback@getanarchive.com
+    about: Rather not post in public? Email us, or choose Help ▸ Send Feedback… in Anarchive.
+  - name: Questions and chat
+    url: https://github.com/getanarchive/feedback/discussions
+    about: Ask how something works, or share what you made.

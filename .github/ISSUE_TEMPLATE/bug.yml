@@ -1,0 +1,47 @@
+name: Bug report
+description: Something in Anarchive doesn't work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Please don't attach your photos or library unless we ask.
+  - type: input
+    id: version
+    attributes:
+      label: Anarchive version
+      description: Anarchive ▸ About Anarchive, e.g. "0.1 beta 24 (build 44)".
+    validations:
+      required: true
+  - type: input
+    id: mac
+    attributes:
+      label: Mac and macOS
+      description: e.g. "MacBook Pro M2 Max, macOS 26.1".
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you saw, and what you expected to see instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we make it happen?
+      description: The steps, as exactly as you can. "Choose a burst, Image ▸ Combine…, then…"
+  - type: dropdown
+    id: often
+    attributes:
+      label: How often?
+      options:
+        - Every time
+        - Sometimes
+        - Once
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: The kind of file (camera, RAW or JPEG, video), how big the library is, a screenshot without anything private in it.

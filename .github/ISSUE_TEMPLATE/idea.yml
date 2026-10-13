@@ -1,0 +1,20 @@
+name: Idea
+description: Something Anarchive could do, or do better.
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search first: if the idea is already here, add a 👍 to it instead. Votes help us decide what comes next.
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What you'd like Anarchive to do.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters to you
+      description: What you're trying to do with your pictures, and how you do it today.
